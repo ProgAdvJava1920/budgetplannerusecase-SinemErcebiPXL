@@ -4,12 +4,35 @@ import java.util.Date;
 import java.util.Objects;
 
 public class Payment {
-
+    private int id;                 // primary key
+    private int accountId;          // foreign key
+    private int counterAccountId;   // foreign key
     private String IBAN;
     private Date date;
     private float amount;
     private String currency;
     private String detail;
+
+    public Payment(int id, int accountId, int counterAccountId, String IBAN, Date date, float amount, String currency, String detail) {
+        this.id = id;
+        this.accountId = accountId;
+        this.counterAccountId = counterAccountId;
+        this.IBAN = IBAN;
+        this.date = date;
+        this.amount = amount;
+        this.currency = currency;
+        this.detail = detail;
+    }
+
+    public Payment(int accountId, int counterAccountId, String IBAN, Date date, float amount, String currency, String detail) {
+        this.accountId = accountId;
+        this.counterAccountId = counterAccountId;
+        this.IBAN = IBAN;
+        this.date = date;
+        this.amount = amount;
+        this.currency = currency;
+        this.detail = detail;
+    }
 
     public Payment(String IBAN, Date date, float amount, String currency, String detail) {
         this.IBAN = IBAN;
@@ -17,6 +40,38 @@ public class Payment {
         this.amount = amount;
         this.currency = currency;
         this.detail = detail;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public int getAccountId() {
+        return accountId;
+    }
+
+    public void setAccountId(int accountId) {
+        this.accountId = accountId;
+    }
+
+    public int getCounterAccountId() {
+        return counterAccountId;
+    }
+
+    public void setCounterAccountId(int counterAccountId) {
+        this.counterAccountId = counterAccountId;
+    }
+
+    public String getIBAN() {
+        return IBAN;
+    }
+
+    public void setIBAN(String IBAN) {
+        this.IBAN = IBAN;
     }
 
     public Date getDate() {

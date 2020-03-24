@@ -6,17 +6,31 @@ import java.util.Objects;
 import java.util.stream.Collectors;
 
 public class Account {
-    private String name;
+    private int id;
     private String IBAN;
+    private String name;
     private List<Payment> payments = new ArrayList<>(); // tegen NullPointerException
 
-    public Account(String name, String IBAN){
+    public Account(int id, String IBAN, String name) {
+        this.id = id;
+        this.IBAN = IBAN;
+        this.name = name;
+    }
+
+    public Account() {
+    }
+
+    public Account(String name, String IBAN) {
         this.name = name;
         this.IBAN = IBAN;
     }
 
-    public Account(){
+    public int getId() {
+        return id;
+    }
 
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getIBAN() {
@@ -56,8 +70,8 @@ public class Account {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Account account = (Account) o;
-        return name.equals(account.name) &&
-                IBAN.equals(account.IBAN);
+        return Objects.equals(name, account.name) &&
+                Objects.equals(IBAN, account.IBAN);
     }
 
     @Override

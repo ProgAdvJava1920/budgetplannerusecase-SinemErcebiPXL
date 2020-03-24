@@ -10,31 +10,28 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class BudgetPlannerImporterTest
-{
-    Path testCsvFile = Paths.get("src/test/resources/account_payments_test.csv");
+class BudgetPlannerImporterTest {
+    Path csvFilePath = Paths.get("src/test/resources/account_payments_test.csv");
 
     @Test
-    void read_Csv_File_should_return_none_empty_list() throws BudgetPlannerException {
-        assertFalse(BudgetPlannerImporter.readCsvFile(testCsvFile).isEmpty());
+    void read_csv_file_should_return_non_empty_list() throws BudgetPlannerException {
+        assertFalse(BudgetPlannerImporter.readCsvFile(csvFilePath).isEmpty());
     }
 
     @Test
-    void read_Csv_File_should_return_list_of_size_2() throws BudgetPlannerException {
-        assertEquals(2, BudgetPlannerImporter.readCsvFile(testCsvFile).size());
+    void read_csv_file_should_return_list_of_size_3() throws BudgetPlannerException {
+        assertEquals(3, BudgetPlannerImporter.readCsvFile(csvFilePath).size());
     }
 
     @Test
-    void read_Csv_File_should_throw_our_own_exception_when_csv_file_does_not_exist()
-    {
+    void read_csv_file_should_throw_exception_when_csv_file_does_not_exist() {
         assertThrows(BudgetPlannerException.class, () -> {
-            BudgetPlannerImporter.readCsvFile(Paths.get("none existing path"));
+            BudgetPlannerImporter.readCsvFile(Paths.get("noFileToBeFoundHere"));
         });
     }
 
     @Test
-    void read_Csv_File_should_throw_our_own_exception_when_passing_null()
-    {
+    void read_csv_file_should_throw_exception_when_passing_null() {
         assertThrows(BudgetPlannerException.class, () -> {
             BudgetPlannerImporter.readCsvFile(null);
         });

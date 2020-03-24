@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/src/main/java/be/pxl/student/entity/AccountDAO.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/BudgetPlanner.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/BudgetPlannerTest.sql" dialect="MariaDB" />
+  </component>
+</project>

@@ -2,80 +2,99 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27d9d95f-e6a5-40f8-a391-2a5f9c7907f3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_javafaker_javafaker_1_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_mifmif_generex_1_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dk_brics_automaton_automaton_1_11_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_android_1_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BudgetPlanner.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_192.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/pxl/student/entity/AccountDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/pxl/student/entity/AccountException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/pxl/student/entity/AccountNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/pxl/student/entity/DAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/pxl/student/entity/DAOManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/pxl/student/entity/PaymentDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/pxl/student/entity/PaymentException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/pxl/student/entity/PaymentNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/BudgetPlanner.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/be/pxl/student/entity/AccountDAOTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/be/pxl/student/entity/PaymentDAOTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/BudgetPlannerTest.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BudgetPlanner.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BudgetPlanner.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/be/pxl/student/BudgetPlanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/pxl/student/BudgetPlanner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/be/pxl/student/entity/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/pxl/student/entity/Account.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/be/pxl/student/entity/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/pxl/student/entity/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/pxl/student/util/BudgetPlannerException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/pxl/student/util/BudgetPlannerException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/pxl/student/util/BudgetPlannerFeeder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/pxl/student/util/BudgetPlannerFeeder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/be/pxl/student/util/BudgetPlannerImporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/pxl/student/util/BudgetPlannerImporter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/pxl/student/util/BudgetPlannerMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/pxl/student/util/BudgetPlannerMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/be/pxl/student/util/BudgetPlannerImporterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/pxl/student/util/BudgetPlannerImporterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/be/pxl/student/util/BudgetPlannerMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/pxl/student/util/BudgetPlannerMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/be/pxl/student/entity/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/be/pxl/student/entity/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/be/pxl/student/entity/Payment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/be/pxl/student/entity/Payment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/be/pxl/student/util/BudgetPlannerMapperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/pxl/student/util/BudgetPlannerMapperTest.class" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/be/pxl/student/util/BudgetPlannerImporter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/be/pxl/student/util/BudgetPlannerMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-467">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/be/pxl/student/util/BudgetPlannerFeeder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="budgetplanner: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="budgetplanner: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="Account: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ExecutionTargetDialog">
+    <checked>
+      <node key="c1388195-8e13-4af2-8324-18977ad361ec" />
+    </checked>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/be/pxl/student/entity/Account.java" />
-        <option value="$PROJECT_DIR$/src/main/java/be/pxl/student/entity/Payment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/be/pxl/student/util/BudgetPlannerException.java" />
-      </list>
-    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -84,139 +103,48 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="35" />
-    <option name="y" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1050" />
+  <component name="ProjectId" id="1YxRIoBujJKr9NPz54EsXeH7uOl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="BudgetPlanner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BudgetPlanner" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BudgetPlanner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BudgetPlanner" type="462c0819:PsiDirectoryNode" />
-              <item name="logs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BudgetPlanner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BudgetPlanner" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BudgetPlanner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BudgetPlanner" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BudgetPlanner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BudgetPlanner" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BudgetPlanner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BudgetPlanner" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="student" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BudgetPlanner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BudgetPlanner" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="student" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BudgetPlanner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BudgetPlanner" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="student" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BudgetPlanner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BudgetPlanner" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BudgetPlanner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BudgetPlanner" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BudgetPlanner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BudgetPlanner" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BudgetPlanner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BudgetPlanner" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BudgetPlanner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BudgetPlanner" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583334567301" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583355004041" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/budgetplannerusecase-JurgenCoenegrachtsPXL" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="be.pxl.student.entity" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\11801801\Desktop\Programming Advanced Java\BudgetPlanner\src\main\resources" />
+      <recent name="C:\Users\11801801\Desktop\Programming Advanced Java\BudgetPlanner\src\test\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="be.pxl.student.entity" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="be.pxl.student.entity" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.BudgetPlanner">
+  <component name="RunManager" selected="JUnit.AccountDAOTest">
     <configuration name="BudgetPlanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="be.pxl.student.BudgetPlanner" />
       <module name="BudgetPlanner" />
@@ -226,6 +154,37 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountDAOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BudgetPlanner" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.pxl.student.entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.pxl.student.entity" />
+      <option name="MAIN_CLASS_NAME" value="be.pxl.student.entity.AccountDAOTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountDAOTest.it_should_return_account_with_id_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BudgetPlanner" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.pxl.student.entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.pxl.student.entity" />
+      <option name="MAIN_CLASS_NAME" value="be.pxl.student.entity.AccountDAOTest" />
+      <option name="METHOD_NAME" value="it_should_return_account_with_id_1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -240,6 +199,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="be.pxl.student.util" />
       <option name="MAIN_CLASS_NAME" value="be.pxl.student.util.BudgetPlannerImporterTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -254,15 +214,18 @@
       </extension>
       <option name="PACKAGE_NAME" value="be.pxl.student.util" />
       <option name="MAIN_CLASS_NAME" value="be.pxl.student.util.BudgetPlannerMapperTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BudgetPlanner" />
-        <item itemvalue="JUnit.BudgetPlannerMapperTest" />
+        <item itemvalue="JUnit.AccountDAOTest" />
+        <item itemvalue="JUnit.AccountDAOTest.it_should_return_account_with_id_1" />
         <item itemvalue="JUnit.BudgetPlannerImporterTest" />
+        <item itemvalue="JUnit.BudgetPlannerMapperTest" />
+        <item itemvalue="Application.BudgetPlanner" />
       </list>
     </recent_temporary>
   </component>
@@ -277,168 +240,83 @@
       <option name="presentableId" value="Default" />
       <updated>1583333149083</updated>
       <workItem from="1583333153385" duration="1669000" />
+      <workItem from="1583344390768" duration="2384000" />
+      <workItem from="1583356455590" duration="744000" />
+      <workItem from="1583882191133" duration="31000" />
+      <workItem from="1583915513153" duration="1015000" />
+      <workItem from="1583922437634" duration="4405000" />
+      <workItem from="1584519796068" duration="824000" />
+      <workItem from="1584521740375" duration="2440000" />
+      <workItem from="1585084274162" duration="5941000" />
     </task>
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="BudgetPlannerImporterTest - 2020.03.04 at 15h 48m 52s.xml">
-      <configuration name="BudgetPlannerImporterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BudgetPlannerMapperTest - 2020.03.04 at 15h 49m 12s.xml">
-      <configuration name="BudgetPlannerMapperTest" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1669000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" weight="0.3286119" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/be/pxl/student/util/BudgetPlannerMapperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="61" column="46" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/be/pxl/student/util/BudgetPlannerImporterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/account_payments_test.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/account_payments.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1199" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/pxl/student/util/BudgetPlannerImporter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/app.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/pxl/student/BudgetPlanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/pxl/student/entity/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/pxl/student/entity/Payment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="e#1849#1850#0" expanded="true" />
-            <element signature="e#1922#1923#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/pxl/student/util/BudgetPlannerException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-          <folding>
-            <element signature="e#140#141#0" expanded="true" />
-            <element signature="e#170#171#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/pxl/student/util/BudgetPlannerMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-467">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/pxl/student/util/BudgetPlannerFeeder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="74" key="#SQL_Dialects" timestamp="1583925605894">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#SQL_Dialects/0.0.1536.824@0.0.1536.824" timestamp="1583925605894" />
+    <state x="361" y="74" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583924987501">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1583924987501" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1585094150519">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1585094150519" />
+    <state x="281" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584523429527">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="281" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1584523429527" />
+    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584523323754">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1584523323754" />
+    <state x="569" y="118" key="ExecutionTargetDialog" timestamp="1583925201991">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="569" y="118" key="ExecutionTargetDialog/0.0.1536.824@0.0.1536.824" timestamp="1583925201991" />
+    <state x="549" y="170" key="FileChooserDialogImpl" timestamp="1585091863488">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585091863488" />
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1584524182400">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584524182400" />
+    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1584524182400">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584524182400" />
+    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1584524182400">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584524182400" />
+    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1584524182400">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584524182400" />
+    <state x="279" y="58" key="SettingsEditor" timestamp="1583916523467">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="279" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1583916523467" />
+    <state x="485" y="63" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1583925192256">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="485" y="63" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1583925192256" />
+    <state x="477" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1585084273739">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="477" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585084273739" />
+    <state x="540" y="145" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584523709370">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="540" y="145" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1584523709370" />
   </component>
 </project>

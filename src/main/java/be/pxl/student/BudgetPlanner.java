@@ -11,7 +11,6 @@ import java.nio.file.Paths;
 import java.util.List;
 
 public class BudgetPlanner {
-
     private static Logger logger = LogManager.getLogger(BudgetPlanner.class);
 
     public static void main(String[] args) {
@@ -19,15 +18,15 @@ public class BudgetPlanner {
 
         try {
             logger.info("Starting csv import");
-            List<String> list = BudgetPlannerImporter.readCsvFile(Paths.get(csvFile));
+            List<String> csvLines = BudgetPlannerImporter.readCsvFile(Paths.get(csvFile));
             logger.info("Csv import done");
+
             logger.info("Starting account mapping");
-            List<Account> accounts = new BudgetPlannerMapper().mapAccounts(list);
+            List<Account> accounts = new BudgetPlannerMapper().mapAccounts(csvLines);
             accounts.forEach(logger::debug);
-            logger.info("account mapping done");
+            logger.info("Account mapping done");
         } catch (BudgetPlannerException e) {
-            e.printStackTrace();
+            logger.error("Exception importing accounts", e);
         }
     }
-
 }

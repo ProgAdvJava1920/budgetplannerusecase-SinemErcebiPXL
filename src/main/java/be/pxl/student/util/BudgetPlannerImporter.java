@@ -22,24 +22,18 @@ import java.util.Locale;
  */
 public class BudgetPlannerImporter {
     public static List<String> readCsvFile(Path path) throws BudgetPlannerException {
-        List<String> fileLines = new ArrayList<>();
-        BufferedReader reader = null;
+        ArrayList<String> output = new ArrayList<>();
 
-        try
-        {
-            reader = Files.newBufferedReader(path);
-            String line = reader.readLine(); // ignore first line
+        try (BufferedReader reader = Files.newBufferedReader(path)) {
+            reader.readLine(); // ignore header line
 
-            while ((line = reader.readLine()) != null)
-            {
-                fileLines.add(line);
+            String line;
+            while ((line = reader.readLine()) != null) {
+                output.add(line);
             }
+        } catch (IOException | NullPointerException e) {
+            throw new BudgetPlannerException("Something went wrong reading csv file", e);
         }
-        catch (IOException | NullPointerException ex)
-        {
-            throw new BudgetPlannerException("Something went wrong reading csv file", ex);
-        }
-
-        return fileLines;
+        return output;
     }
 }
